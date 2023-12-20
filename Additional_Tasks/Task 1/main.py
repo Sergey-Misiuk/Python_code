@@ -1,4 +1,5 @@
 import os
+
 list_file = [x for x in os.listdir('.') if x.endswith(('.txt'))]
 
 dict_output = {}
